@@ -2,7 +2,7 @@
 * PM me at xda - FireLord 
 * Email me - amankumarmicro@gmail.com
 
-# Device configuration for Sasmung Galaxy Star Pro|Plus (logan2g)
+# Device configuration for Samsung Galaxy Star Pro|Plus (logan2g)
 
 ## Spec Sheet
 
