@@ -106,6 +106,12 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     e2fsck 
 
+# f2fs
+PRODUCT_PACKAGES += \
+	fibmap.f2fs \
+	fsck.f2fs \
+	mkfs.f2fs
+
 # Camera
 PRODUCT_PACKAGES += \
     Gallery2
