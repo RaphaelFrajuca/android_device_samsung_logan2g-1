@@ -15,6 +15,14 @@ ARCH_ARM_HAVE_NEON := true
 # For low memory targets only (~512MB RAM & hdpi resolution)
 TARGET_ARCH_LOWMEM := true
 
+# Enable dex-preoptimization to speed up the first boot sequence
+# of an SDK AVD. Note that this operation only works on Linux for now
+ifeq ($(HOST_OS),linux)
+  ifeq ($(WITH_DEXPREOPT),)
+    WITH_DEXPREOPT := true
+  endif
+endif
+
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := logan
 TARGET_NO_BOOTLOADER := true
